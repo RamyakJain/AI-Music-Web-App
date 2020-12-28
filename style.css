@@ -1,0 +1,30 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 5px yellow;
+}
+.note{
+    font-size: 15px;
+    color: black;
+    margin-top: 0px;
+    width: 100%;
+    box-shadow: 5px 5px 5px yellow;
+}
+#song_name{
+    box-shadow: 5px 5px 5px lightgreen;
+    font-size: 20px; 
+}
+canvas{
+    animation-name: canvas_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    margin-top: 112.5px;
+}
+@keyframes canvas_animation{
+    from{box-shadow: 5px 5px 5px lightseagreen;}
+    to{ box-shadow: 5px 5px 5px lightskyblue;}
+}
