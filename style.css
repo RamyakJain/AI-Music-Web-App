@@ -12,6 +12,7 @@
     margin-top: 0px;
     width: 100%;
     box-shadow: 5px 5px 5px yellow;
+    
 }
 #song_name{
     box-shadow: 5px 5px 5px lightgreen;
@@ -27,4 +28,8 @@ canvas{
 @keyframes canvas_animation{
     from{box-shadow: 5px 5px 5px lightseagreen;}
     to{ box-shadow: 5px 5px 5px lightskyblue;}
+}
+.color{
+    background-color: #df4759;
+    border: 4px solid #df4759;
 }
